@@ -18,7 +18,7 @@ function Header() {
                 <Link class="nav-link" to={{ pathname: "/"}}>Home</Link>
                 </li>
 
-                <li class="nav-item">
+                {/* <li class="nav-item">
                 <a class="nav-link" href="#">About Us</a>
                 </li>
               
@@ -35,7 +35,7 @@ function Header() {
                     <li><a href="#">404 Page</a></li>
                     <li><a href="#">FAQ</a></li>
                 </ul>
-                </li>
+                </li> */}
 
                 <li class="nav-item dropdown dropdown-slide">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-delay="350"
@@ -59,7 +59,7 @@ function Header() {
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown5">
                     <li><Link to={{ pathname: "/login"}}>Login Page</Link></li>
                     <li><Link to={{ pathname: "/signup"}}>SignUp Page</Link></li>
-                    <li><Link to={{ pathname: "/forgot-password"}}>Forgot Password</Link></li>
+                    {/* <li><Link to={{ pathname: "/forgot-password"}}>Forgot Password</Link></li> */}
                 </ul>
                 </li>
             </ul>
